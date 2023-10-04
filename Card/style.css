@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  font-family: "Lobster", cursive;
+  justify-content: center;
+  margin-top: 5px;
+}
+.logoImg {
+  width: 115px;
+}
+.navMiddle,
+.navRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navMiddle {
+  margin: 0 10vw;
+}
+.navMiddle ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.navMiddle ul li {
+  margin: 1vw 2vw;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(50, 49, 49);
+  letter-spacing: 1px;
+}
+.navRight {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(50, 49, 49);
+}
+.upper-container {
+  background-image: url("images/Background.jpg");
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+  letter-spacing: 2px;
+  color: #ffff;
+  margin: 25px 5vw 0 5vw;
+  text-align: center;
+  height: 33vh;
+  border-radius: 50px;
+  padding-top: 20px;
+}
+.img1 {
+  width: 200px;
+  border: 5px solid #ffff;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  border-radius: 5px;
+}
+.img2 {
+  width: 170px;
+  border: 5px solid #ffff;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  border-radius: 5px;
+}
+.img3 {
+  width: 140px;
+  border: 5px solid #ffff;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  border-radius: 5px;
+}
+.down-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: -9.5vw 10vw 0 10vw;
+  background-color: #ffff;
+  padding: 5vw 8vw;
+}
+.cont-left {
+  display: flex;
+  flex-direction: row;
+}
+.spn-img1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+.spn-img2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 -34px;
+  z-index: 3;
+}
+.spn-img3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 -36px;
+  z-index: 2;
+}
+.cont-right {
+  margin-left: 7vw;
+  display: flex;
+}
+.crd-title {
+  font-size: 35px;
+  margin-bottom: 10px;
+  font-family: "Lobster", cursive;
+  margin-left: 20px;
+}
+.price {
+  margin-bottom: 20px;
+  display: flex;
+}
+.pr-1 {
+  font-family: "Courgette", cursive;
+  font-size: 18px;
+}
+.pr-2 {
+  margin: 0 5px;
+  text-decoration: line-through;
+  font-family: "Courgette", cursive;
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+}
+.pr-3 {
+  margin-left: 20px;
+  display: flex;
+  font-family: "Lobster", cursive;
+  color: rgb(20, 218, 27);
+  font-size: 20px;
+}
+.btn {
+  border: none;
+  font-family: "Lobster", cursive;
+  color: #ffff;
+  background-color: black;
+  padding: 10px 22px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.dummy-txt {
+  font-family: "Lobster", cursive;
+  color: rgb(68, 68, 68);
+  letter-spacing: 1px;
+}
+
+.sp-style {
+  font-family: "Lobster", cursive;
+}
+.feature {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin: 20px 0;
+}
+.sub-main {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 25px;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2vw 9vw;
+  padding: 2vw;
+}
+.sub-feature {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.sub-f-img {
+  width: 80px;
+  height: 80px;
+  background-color: rgba(64, 64, 64, 0.258);
+  border-radius: 50%;
+  margin-bottom: 7px;
+}
+.sub-f-txt {
+  font-family: "Lobster", cursive;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 1px;
+}
