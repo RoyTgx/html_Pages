@@ -1,16 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,400;1,100&family=Black+Ops+One&family=Bungee+Shade&family=Comfortaa&family=Fredericka+the+Great&family=Monoton&family=Nixie+One&family=Poppins&family=Quicksand:wght@300;400;500;600&family=Rochester&family=Space+Grotesk:wght@300;400&display=swap');
+::-webkit-scrollbar{
+  display: none;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  background: rgb(6,73,92);
+background: linear-gradient(138deg, rgba(6,73,92,1) 4%, rgba(24,113,138,1) 48%, rgba(17,84,102,1) 84%);
+}
 .navbar {
   display: flex;
   flex-direction: row;
-  font-family: "Lobster", cursive;
+  /* font-family: "Lobster", cursive; */
+  font-family: "Comfortaa", cursive;
   justify-content: space-between;
   margin-top: 5px;
+  background-color: #F5C16C;
+  color: white;
 }
 .logoImg {
   width: 115px;
@@ -20,6 +30,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 .navMiddle {
   margin: 0 10vw;
@@ -33,25 +44,28 @@
   margin: 1vw 2vw;
   font-size: 18px;
   font-weight: 300;
-  color: rgb(50, 49, 49);
+  /* color: rgb(50, 49, 49); */
+  color: white;
   letter-spacing: 1px;
 }
 .navRight {
   font-size: 20px;
   font-weight: 500;
-  color: rgb(50, 49, 49);
+  /* color: rgb(50, 49, 49); */
 }
 .upper-container {
-  background-image: url("images/Background.jpg");
+  /* background-image: url("images/Background.jpg"); */
+  background: rgb(99,12,12);
+background: radial-gradient(circle, rgba(99,12,12,1) 17%, rgba(107,32,8,1) 59%, rgba(87,3,3,1) 89%);
   font-size: 30px;
-  font-family: "Lobster", cursive;
+  font-family: "Monoton", cursive;
   letter-spacing: 2px;
   color: #ffff;
   margin: 25px 5vw 0 5vw;
   text-align: center;
   height: 33vh;
   border-radius: 50px;
-  padding-top: 20px;
+  padding-top: 60px;
 }
 .img1 {
   width: 200px;
@@ -60,6 +74,10 @@
     rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
   border-radius: 5px;
 }
+.img1:hover{
+  transform: scale(1.1);
+  transition: all ease 0.5s;
+}
 .img2 {
   width: 170px;
   border: 5px solid #ffff;
@@ -67,12 +85,20 @@
     rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
   border-radius: 5px;
 }
+.img2:hover{
+  transform: scale(1.1);
+  transition: all ease 0.5s;
+}
 .img3 {
   width: 140px;
   border: 5px solid #ffff;
   box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
     rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
   border-radius: 5px;
+}
+.img3:hover{
+  transform: scale(1.1);
+  transition: all ease 0.5s;
 }
 .down-container {
   display: flex;
@@ -82,7 +108,8 @@
   border: 2px solid black;
   border-radius: 20px;
   margin: -78px 10vw 0 10vw;
-  background-color: #ffff;
+  /* background-color: #ffff; */
+  background-color: #E8E2DB;
   padding: 5vw 8vw;
 }
 .cont-left {
@@ -117,7 +144,7 @@
 .crd-title {
   font-size: 35px;
   margin-bottom: 10px;
-  font-family: "Lobster", cursive;
+  font-family: "Black Ops One", cursive;
   margin-left: 20px;
 }
 .price {
@@ -146,7 +173,7 @@
 }
 .btn {
   border: none;
-  font-family: "Lobster", cursive;
+  font-family: "Comfortaa", cursive;
   color: #ffff;
   background-color: black;
   padding: 10px 22px;
@@ -155,9 +182,13 @@
   border-radius: 10px;
   margin-top: 30px;
 }
+.btn:hover{
+  background-color: rgb(43, 42, 42);
+  box-shadow: 4px 4px 2px rgb(147, 145, 145);
+}
 .dummy-txt {
-  font-family: "Lobster", cursive;
-  color: rgb(68, 68, 68);
+  font-family: "Quicksand", cursive;
+  color: rgb(51, 50, 50);
   letter-spacing: 1px;
 }
 
@@ -166,10 +197,11 @@
 }
 .feature {
   text-align: center;
-  font-family: "Lobster", cursive;
+  font-family: "Nixie One", cursive;
   font-size: 32px;
   letter-spacing: 2px;
   margin: 20px 0;
+  color: #fff;
 }
 .sub-main {
   display: flex;
@@ -179,6 +211,7 @@
   justify-content: center;
   margin: 2vw 9vw;
   padding: 2vw;
+  background-color: #E8E2DB;
 }
 .sub-feature {
   display: flex;
@@ -195,10 +228,11 @@
   margin-bottom: 7px;
 }
 .sub-f-txt {
-  font-family: "Lobster", cursive;
-  font-size: 22px;
+  font-size: 15px;
   text-align: center;
   letter-spacing: 1px;
+  font-family: "Quicksand", cursive;
+  color: rgb(51, 50, 50);
 }
 .dropbtn {
   font-size: 30px;
@@ -276,6 +310,7 @@ color:rgb(140 46 47);
 }
 .navbar{
   margin: 10px;
+  border-radius: 20px;
 }
 .cont-right{
   margin-top: 5px;
