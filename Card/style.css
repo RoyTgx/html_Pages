@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: row;
   font-family: "Lobster", cursive;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 5px;
 }
 .logoImg {
@@ -81,7 +81,7 @@
   align-items: center;
   border: 2px solid black;
   border-radius: 20px;
-  margin: -9.5vw 10vw 0 10vw;
+  margin: -78px 10vw 0 10vw;
   background-color: #ffff;
   padding: 5vw 8vw;
 }
@@ -112,6 +112,7 @@
 .cont-right {
   margin-left: 7vw;
   display: flex;
+      text-align: center;
 }
 .crd-title {
   font-size: 35px;
@@ -122,6 +123,7 @@
 .price {
   margin-bottom: 20px;
   display: flex;
+  justify-content: center;
 }
 .pr-1 {
   font-family: "Courgette", cursive;
@@ -197,4 +199,90 @@
   font-size: 22px;
   text-align: center;
   letter-spacing: 1px;
+}
+.dropbtn {
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 7;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+color:rgb(140 46 47);
+}
+@media screen and (max-width: 855px) {
+  .down-container {
+    flex-direction: column;
+  }
+  .img1 {
+    max-width:200px;
+    width:100%;
+    height: auto;
+  }
+   .img2{
+    max-width:170px;
+    width:100%;
+    height: auto;
+  }
+   .img3 {
+    max-width:140px;
+    width:100%;
+    height: auto;
+  }
+  .navMiddle{
+    margin: 0;
+  }
+  .dropdown {
+  display: inline-block;
+}
+.navcards{
+  display: none !important;
+}
+.navLeft{
+  left: 0;
+}
+.navbar{
+  margin: 10px;
+}
+.cont-right{
+  margin-top: 5px;
+}
+}
+@media screen and (max-width: 400px) {
+  .sub-main{
+    margin: 2vw 9px;
+  }
 }
